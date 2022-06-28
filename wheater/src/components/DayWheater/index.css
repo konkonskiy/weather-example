@@ -1,0 +1,22 @@
+.DayWheater {
+    width: 160px;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: start;
+    align-items: flex-start;
+}
+
+.DayWheater_title {
+    font-family: Roboto;
+font-size: 18px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0px;
+text-align: left;
+}
+
+.DayWheater svg {
+    width: 42px;
+    height: 42px;
+}
