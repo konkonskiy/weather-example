@@ -1,6 +1,6 @@
 import React from 'react'
-import './index.css'
 import { ReactComponent as SunSvg } from '../../images/icons/sun.svg'
+import './index.css'
 
 function DayWheater({ tempDay, tempNight, dt, icon }) {
   const myDate = new Date(dt * 1000)

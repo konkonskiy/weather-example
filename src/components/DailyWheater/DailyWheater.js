@@ -6,7 +6,7 @@ function DailyWheater({ dailyWheater }) {
   return (
     <div className='DailyWheater'>
       <h2 className='DailyWheater_title'>По дням</h2>
-      <div className='DayWheaterList'>
+      <div className='DayWheater_list'>
         {dailyWheater.map((day) => {
           return (
             <DayWheater
