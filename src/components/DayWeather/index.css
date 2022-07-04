@@ -1,0 +1,51 @@
+.DayWeather {
+  width: 160px;
+  height: 168px;
+  padding: 16px;
+
+  display: flex;
+  flex-direction: column;
+
+  justify-content: space-around;
+}
+
+.DayWeather:hover {
+  background: rgba(255, 255, 255, 0.25);
+  border-radius: 16px;
+}
+
+.DayWeather_title {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.DayWeather svg {
+  width: 42px;
+  height: 42px;
+}
+
+.Degree_day {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+
+  padding-right: 16px;
+}
+
+.Degree_night {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+
+  opacity: 0.5;
+}

@@ -1,15 +1,15 @@
 import React from 'react'
-import DayWheater from '../DayWheater/DayWheater'
+import DayWeather from '../DayWeather/DayWeather'
 import './index.css'
 
-function DailyWheater({ dailyWheater }) {
+function DailyWeather({ daily }) {
   return (
-    <div className='DailyWheater'>
-      <h2 className='DailyWheater_title'>По дням</h2>
-      <div className='DayWheater_list'>
-        {dailyWheater.map((day) => {
+    <div className='DailyWeather'>
+      <h2 className='DailyWeather_title'>По дням</h2>
+      <div className='DayWeather_list'>
+        {daily.map((day) => {
           return (
-            <DayWheater
+            <DayWeather
               key={day.dt}
               tempDay={day.temp.day}
               tempNight={day.temp.night}
@@ -23,4 +23,4 @@ function DailyWheater({ dailyWheater }) {
   )
 }
 
-export default DailyWheater
+export default DailyWeather
