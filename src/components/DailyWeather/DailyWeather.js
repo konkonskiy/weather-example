@@ -3,6 +3,9 @@ import DayWeather from '../DayWeather/DayWeather'
 import './index.css'
 
 function DailyWeather({ daily }) {
+
+  if (!daily.length) return null
+  
   return (
     <div className='DailyWeather'>
       <h2 className='DailyWeather_title'>По дням</h2>

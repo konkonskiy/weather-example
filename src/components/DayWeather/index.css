@@ -15,7 +15,7 @@
 }
 
 .DayWeather_title {
-  font-family: Roboto;
+  
   font-size: 18px;
   font-weight: 400;
   line-height: 24px;
@@ -23,13 +23,13 @@
   text-align: left;
 }
 
-.DayWeather svg {
+.DayWeather img {
   width: 42px;
   height: 42px;
 }
 
 .Degree_day {
-  font-family: Roboto;
+  
   font-size: 24px;
   font-weight: 400;
   line-height: 32px;
@@ -40,7 +40,7 @@
 }
 
 .Degree_night {
-  font-family: Roboto;
+  
   font-size: 18px;
   font-weight: 400;
   line-height: 24px;
